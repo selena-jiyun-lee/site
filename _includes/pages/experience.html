@@ -1,0 +1,26 @@
+<section class="page experience">
+	<h1 class="title sticky"
+		><span class="arrow">&gt;&nbsp;</span>Experience</h1
+	>
+	<ul>
+		{% for data_hash in site.data.experiences %} {% assign data =
+		data_hash[1]%}
+		<li> { </li>
+		<li> <span>company: </span>{{data.companyname}} </li>
+		<li> <span>role: </span>{{data.role}}</li>
+		<li>
+			<span>skills: </span>
+			<p> [ {% for skill in data.skills %} {{skill}}, {% endfor %}] </p>
+		</li>
+		<li>
+			<span>jobs: </span>
+			<p> [ </p>
+			{% for description in data.descriptions %}
+			<p class="job-description">{{description}}</p>
+			{% endfor %}
+			<p> ] </p>
+		</li>
+		<li> } </li>
+		{% endfor %}
+	</ul>
+</section>
