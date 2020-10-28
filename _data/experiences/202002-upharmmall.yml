@@ -1,0 +1,11 @@
+companyname: "Upharmmall"
+role: "Web Developer"
+skills:
+    ["PHP(Code Igniter)", "Javascript", "HTML", "CSS", "MSSQL", "JAVA", "IIS"]
+descriptions: [
+        "Resolved errors and developed web services using PHP(Code Igniter), HTML, CSS,
+        Javascript",
+        "Improved data I/O speed issues with senior data specialist by taking charge of
+        database maintenance",
+        "Wrote SQL scripts for daily maintenance activities. Regular data work management using crontab, SQL Server profiler",
+    ]

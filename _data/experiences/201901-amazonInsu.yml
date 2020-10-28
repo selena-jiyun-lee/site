@@ -1,0 +1,9 @@
+companyname: "Amazon Insu"
+role: "Web Developer"
+skills: ["PHP(Legacy)", "Javascript", "HTML", "CSS", "MySQL"]
+descriptions:
+    [
+        "Reorganized and Migrated the data (MySQL)",
+        "Maintained existing site",
+        "Remodeled the web site using PHP(legacy), HTML, CSS, Javascript",
+    ]
