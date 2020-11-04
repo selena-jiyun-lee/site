@@ -1,0 +1,36 @@
+.education-container {
+	margin-left: $content-left-space;
+}
+
+.education-subheading {
+	margin-top: $content-top-space;
+	font-size: $content-big-size;
+
+	font-weight: 600;
+	.arrow {
+		color: $title-color;
+	}
+}
+
+.education-college__content {
+	margin-left: 20px;
+	font-size: $content-size;
+	margin-top: 10px;
+	display: block;
+}
+
+.education-list {
+	margin: 0 20px;
+	font-size: $content-size;
+	padding: 10px 0;
+	li {
+		display: grid;
+		grid-template-columns: 1fr 1fr 100px;
+		margin: 3px 0;
+		span {
+			&:nth-child(2) {
+				font-style: italic;
+			}
+		}
+	}
+}

@@ -1,10 +1,10 @@
 - name: It's me
-  link: /
+  link: "#me"
 - name: Experience
-  link: /experiences
+  link: "#experience"
 - name: Projects
-  link: /projects
+  link: "#projects"
 - name: Education
-  link: /educations
-- name: Contact Me
-  link: /contact-me
+  link: "#education"
+# - name: Contact Me
+#   link: "#contact-me"

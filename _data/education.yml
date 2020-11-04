@@ -1,0 +1,61 @@
+- university:
+      - degree: "A.S."
+        name: Dongyang Mirae University
+        location: Seoul, South Korea
+        period: Mar 2012 - Feb 2015
+
+- independant:
+      - name: "JavaScript: Test-Driven Development (ES6)"
+        where: LinkedIn
+        when: May 2020
+        endDate: 202005
+        skills: []
+      - name: "Vanilla JavaScript"
+        where: Nomad Coders
+        when: Jul 2020
+        endDate: 202007
+        skills: ["Javascript", "localStorage", "AJAX", "JSON", "DOM", "fetch"]
+      - name: "CSS Layout Master Class"
+        where: Nomad Coders
+        when: Aug 2020
+        endDate: 202008
+        skills: ["HTML5", "CSS3", "SCSS", "Flexbox", "CSS Grid"]
+      - name: "Youtube Clone Coding"
+        where: Nomad Coders
+        when: Sep 2020
+        endDate: 202009
+        skills:
+            [
+                "NodeJS",
+                "ES6",
+                "Express",
+                "Babel",
+                "Passport",
+                "AJAX",
+                "Webpack",
+                "SCSS",
+                "MongoDB",
+                "Mongoose",
+                "Multer",
+                "ESLint",
+            ]
+      - name: "React JS for Beginners"
+        where: Nomad Coders
+        when: Oct 2020
+        endDate: 202010
+        skills:
+            [
+                "Styled Components",
+                "React",
+                "React Router",
+                "Axios",
+                "Typescript",
+                "AJAX",
+                "React Hooks",
+                "React Context",
+            ]
+      - name: "Python for Beginners"
+        where: Nomad Coders
+        when: Oct 2020
+        endDate: 202010
+        skills: ["Python3", "BeautifulSoup4", "Flask"]

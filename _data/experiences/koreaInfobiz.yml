@@ -1,0 +1,23 @@
+companyname: "Korea Infobiz"
+role: "Junior Software Developer"
+skills:
+    [
+        "JAVA",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Oracle",
+        "PL-SQL",
+        "JQuery",
+        "Ajax",
+        "JSON",
+        "Jira",
+        "SVN",
+    ]
+descriptions:
+    [
+        "Assisted in developing maintenance of applications for a telecommunication company.",
+        "Experienced wide range of software development and large-scale data network environment.",
+        "Skilled at document preparation, workflow and collaborative tasks in an Agile software development.",
+    ]
+startDate: 201503

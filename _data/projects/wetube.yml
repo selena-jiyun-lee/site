@@ -1,5 +1,19 @@
 title: Wetube
-description: "Clone youtube"
-skills: ["Node.js", "Sass"]
-link: "link"
-github: "github"
+description: "Clone of Youtube"
+skills:
+    [
+        "Node.js",
+        "ES6",
+        "Express",
+        "Babel",
+        "Pug",
+        "Passport.js",
+        "Ajax",
+        "Webpack",
+        "SCSS",
+        "MongoDb",
+        "Multer",
+    ]
+link: ""
+github: "github.com/selena-jiyun-lee/wetube"
+seq: 3

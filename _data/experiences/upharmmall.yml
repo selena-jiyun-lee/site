@@ -9,3 +9,4 @@ descriptions: [
         database maintenance",
         "Wrote SQL scripts for daily maintenance activities. Regular data work management using crontab, SQL Server profiler",
     ]
+startDate: 201901

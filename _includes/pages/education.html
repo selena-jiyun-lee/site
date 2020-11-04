@@ -1,3 +1,30 @@
-<section class="page">
+<section id="education" class="page">
 	<h1 class="title sticky"><span class="arrow">&gt;&nbsp;</span>Education</h1>
+	<div class="education-container">
+		<h2 class="education-subheading"
+			><span class="arrow">&gt;&gt;&nbsp;</span>College</h2
+		>
+
+		{% assign college = site.data.education[0].university[0] %}
+		<span class="education-college__content">
+			&mdash;{{college.degree}} {{college.name}}
+			({{college.location}})</span
+		>
+
+		<h2 class="education-subheading"
+			><span class="arrow">&gt;&gt;&nbsp;</span>Independant</h2
+		>
+		<div class="education-list">
+			<ul>
+				{% assign datas = "" | split:"" %} {% assign datas =
+				site.data.education[1].independant %} {% assign datas = datas |
+				sort: "endDate" | reverse %} {% for data in datas %}
+				<li
+					><span>{{data.name}}</span><span>&mdash;{{data.where}}</span
+					><span>{{data.when}}</span></li
+				>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
 </section>
