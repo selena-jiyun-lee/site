@@ -2,6 +2,6 @@ title: Nomflix
 description: "Clone of Netflix"
 skills:
     ["React.js", "React Router", "Axios", "Ajax", "ES6", "Styled Components"]
-link: "selena-jiyun-lee.github.io/nomflix"
+link: "http://selena-jiyun-lee.github.io/nomflix"
 github: "github.com/selena-jiyun-lee/nomflix"
 seq: 4
