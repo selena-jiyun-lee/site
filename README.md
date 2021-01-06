@@ -1,40 +1,7 @@
-# My site
+# My portfolio site
 
-## To Do
+- This is [my portfolio site](https://selena-jiyun-lee.github.io/site/). You can see my short introduction, career, personal project, etc. on this site.
 
-> ### Nav
-
-- [X] Adjust gaps
-- [X] Set the minimum & maximum width
-- [X] Set the link scroll position
-
-> ### Main
-
-- [ ] Create the Typo Animation
-- [x] Set the scroll action
-
-> ### It's me
-
-- [ ] Add contents
-
-> ### Experience
-
-- [ ] Change words
-- [ ] Add styles
-- [ ] Adjust gaps
-- [ ] Add periods & contents
-
-> ### Projects
-
-- [ ] Add contents
-- [ ] Add images
-- [ ] Add styles
-
-> ### Contact me
-
-- [ ] github & linkedIn & email
-
-> ### Skills
-
-- [ ] Add page
-- [ ] Add Icons
+## What is it made of?
+- The portfolio site was customized based on Jekyll's minima.
+- The CSS part is made of SCSS.
