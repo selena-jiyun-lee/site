@@ -1,0 +1,11 @@
+desc: "I like learning and build something. This is one of the
+reasons why I became a developer. I've worked for 3 years
+as a software developer. Through this time, I was able to
+learn many things and wanted to learn more. I'm excited
+about the days ahead of new experiences."
+advantages:
+    [
+        { icon: "fas fa-laptop-code fa-3x", title: Willingess to learn },
+        { icon: "fas fa-user-friends fa-3x", title: Adaptability },
+        { icon: "fab fa-gripfire fa-3x", title: Enthusiastic },
+    ]

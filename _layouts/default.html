@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" href={{ "/assets/css/styles.css" | relative_url
-		}} />
-		<title>dev jiyun</title>
-	</head>
-	<body>
-		<div class="left-menu"> </div>
-		<main class="content">{{ content }}</main>
-	</body>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include partials/head.html -%}
+
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="left-menu">
+          {% include partials/profile.html%}
+          {% include partials/navigation.html %}
+          {% include partials/links.html%}
+        </div>
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include partials/footer.html -%}
+  </body>
+
 </html>

@@ -1,0 +1,9 @@
+companyname: "Shop Miniso"
+role: "Web Developer"
+skills: ["PHP(Legacy)", "Javascript", "HTML", "CSS", "MySQL", "Apache"]
+descriptions:
+    [
+        "Developed web site using PHP(legacy), Javascript",
+        "Maintained existing site",
+    ]
+startDate: 201808

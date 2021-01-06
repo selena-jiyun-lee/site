@@ -1,0 +1,19 @@
+title: Wetube
+description: "Clone of Youtube"
+skills:
+    [
+        "Node.js",
+        "ES6",
+        "Express",
+        "Babel",
+        "Pug",
+        "Passport.js",
+        "Ajax",
+        "Webpack",
+        "SCSS",
+        "MongoDb",
+        "Multer"
+    ]
+link: ""
+github: "http://github.com/selena-jiyun-lee/wetube"
+seq: 3

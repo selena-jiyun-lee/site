@@ -1,9 +1,9 @@
-$content-big-size: 28px;
-$content-size: 22px;
+$content-big-size: 24px;
+$content-size: 20px;
 $content-top-space: 30px;
 $content-left-space: 50px;
 $tab-space: 30px;
-$nav-width: 15vw;
+$nav-width: 200px;
 
 // $bg-color: #282a35;
 // $text-color: #d9dad7;
@@ -12,3 +12,7 @@ $bg-title-color: #1d2232;
 $title-color: #b46cec;
 $content-title-color: #96d3f5;
 $text-color: #d3cfd9;
+
+@media (max-width: 1200px) {
+	$nav-width: 200px;
+}

@@ -1,0 +1,14 @@
+<section id="me" class="page me">
+	<h1 class="title"><span class="arrow">&gt;&nbsp;</span>It's me</h1>
+	<div class="me-container">
+		<div class="advantage">
+			{% for advantage in site.data.me.advantages %}
+			<div>
+				<i class="{{advantage.icon}}"></i>
+				<span>{{advantage.title}}</span>
+			</div>
+			{% endfor %}
+		</div>
+		<div class="text-content"> &gt; {{site.data.me.desc}} </div>
+	</div>
+</section>

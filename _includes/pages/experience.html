@@ -1,0 +1,38 @@
+<section id="experience" class="page experience">
+	<h1 class="title sticky"
+		><span class="arrow">&gt;&nbsp;</span>Experience</h1
+	>
+	{% assign datas = "" | split: "" %} {% for ex in site.data.experiences %} {%
+	assign datas = datas | push: ex[1]%} {% endfor %}
+	<span>{% assign datas = datas | sort: "startDate" | reverse %}</span>
+	<div class="list">
+		{% for data in datas %}
+		<ul>
+			<li> { </li>
+			<li>
+				<span class="item-name">company: </span>{{data.companyname}}
+			</li>
+			<li> <span class="item-name">role: </span>{{data.role}}</li>
+			<li>
+				<span class="item-name">skills: </span>
+				<p>
+					[ {% for skill in data.skills %} {{skill}} {% if
+					forloop.last == false %} , {% endif %} {% endfor %}]
+				</p>
+			</li>
+			<li>
+				<span class="item-name">jobs: </span>
+				<p> [ </p>
+				{% for description in data.descriptions %}
+				<p class="job-description"
+					>" {{description}} "{% if forloop.last == false %},{% endif
+					%}
+				</p>
+				{% endfor %}
+				<p> ] </p>
+			</li>
+			<li> } </li>
+		</ul>
+		{% endfor %}
+	</div>
+</section>

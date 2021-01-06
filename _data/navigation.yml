@@ -1,0 +1,10 @@
+- name: It's me
+  link: "#me"
+- name: Experience
+  link: "#experience"
+- name: Projects
+  link: "#projects"
+- name: Education
+  link: "#education"
+# - name: Contact Me
+#   link: "#contact-me"
